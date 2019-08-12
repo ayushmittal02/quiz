@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sign-Up</title>
+        <link rel="stylesheet" href="signup.css" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <img src="https://cdn.imgbin.com/21/22/13/imgbin-quiz-logo-game-art-quiz-time-Ldvm5ckyiicvrXHS6TnqzBqF8.jpg" alt="logo" class="logo">
+            <form class="signup" action="/signup/" method="post">
+                <fieldset>
+                    <legend>Sign-Up</legend>
+                    <label for="name" required>Name</label>
+                    <input name="name" type="text" required placeholder="test">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="test@quiz.com">
+                    <label for="password" required>Password</label>
+                    <input type="password" name="password" id="password" required placeholder="1234passw0rd">
+                    <button type="submit">Sign Up</button>
+                </fieldset>
+            </form>
+            <footer role="contentinfo" class="footer">
+                <p>Already have an account?</p>
+                <button id="login-button">Login</button>
+            </footer>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="crypto.js"></script>
+    </body>
+</html>

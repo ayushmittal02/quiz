@@ -1,0 +1,108 @@
+body *{
+    box-sizing: border-box;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+html {
+    background: url('https://www.fifarosters.com/assets/backgrounds/FIFA_19/Paint-Ones-to-Watch.jpg');
+}
+h1, h3 {
+    color:white;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 30px;
+}
+#start-page {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    display: block;
+    background-color:rgb(16, 107, 182);
+    border-radius: 8px;
+    color: azure;
+    min-height: 80px;
+    min-width: 80px;
+    width: 50%;
+    font-size: 25px;
+    border: none;
+}
+button:hover {
+    background-color: rgb(71, 145, 241);
+    cursor: pointer;
+}
+#question-page {
+    display: flex;
+    flex-direction: column;
+}
+#question {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+form {
+    color: white;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    border: none;
+    padding: 0 10%;
+}
+label {
+    font-size: 45px;
+}
+.answer {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+#js-submit-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#status-bar {
+    color: white;
+}
+#question-count, #score-count {
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#score-count {
+    float: right;
+}
+#feedback-page {
+    display: flex;
+    flex-direction: column;
+}
+#js-next-button {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+.feedback-page img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+#js-restart-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
